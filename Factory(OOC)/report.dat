@@ -1,0 +1,32 @@
+[ RUN      ] singleElementContainer.eraseFirst_count_OK
+
+---------------------------------------------------------------
+[Info message]: erase(C, first(C), ~Elem)
+count(C) == 0
+
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+[Error message]: count(C) != 0: improper number of elements in container.
+---------------------------------------------------------------
+C:\Workspace\Projects\01-WarmUp\DoubleList\dlist.test.cpp(951): error: Expected equality of these values:
+  count()
+    Which is: 1844674407370955161500000000000000000
+[  FAILED  ] singleElementContainer.eraseFirst_count_OK (1 ms)
+///
+[  FAILED  ] 13 tests, listed below:
+[  FAILED  ] emptyContainer.removeLast_count_OK
+[  FAILED  ] emptyContainer.removeLastWithoutDtor_OK
+[  FAILED  ] emptyContainer.insertAfter_count_item_OK
+[  FAILED  ] emptyContainer.insertBefore_count_item_OK
+[  FAILED  ] singleElementContainer.clear_count_OK
+[  FAILED  ] singleElementContainer.itemOutsideRange_FAIL
+[  FAILED  ] singleElementContainer.removeFirst_count_OK
+[  FAILED  ] singleElementContainer.currentfirst_OK
+[  FAILED  ] singleElementContainer.forwardLoop_OK
+[  FAILED  ] singleElementContainer.backwardLoop_OK
+[  FAILED  ] singleElementContainer.insertAfterFirst_count_item_OK
+[  FAILED  ] singleElementContainer.insertBeforeFirst_count_item_OK
+[  FAILED  ] singleElementContainer.eraseFirst_count_OK
+
+13 FAILED TESTS
